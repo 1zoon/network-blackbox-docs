@@ -1,0 +1,92 @@
+site_name: Network Blackbox v4.1.2 Manual
+theme:
+  name: material
+  language: ko
+nav:
+  - 접속 및 로그인: 01_login.md
+  - PROFILING: 08_profiling.md
+  - TOOL: 09_tool.md
+  - Detailed Packet Analyzer: 11_detailed_packet.md
+  - PROFILING: 12_profiling.md
+  - 만료시간설정: 13_expire_setting.md
+  - Time&Timeout: 14_timeout.md
+  - LOGOUT: 15_logout.md
+  - 02 Dashboard:
+      - 종합 대시보드: 02_dashboard/01_overview.md
+      - 시스템 상태: 02_dashboard/02_system_status.md
+      - 데이터베이스 정보: 02_dashboard/03_database_info.md
+      - 시스템 구성 현황: 02_dashboard/04_system_config.md
+  - 03 Detection:
+      - 위협 탐지: 03_detection/01_threat.md
+      - 비정상 세션 탐지: 03_detection/02_abnormal_session.md
+      - 비정상 컨텐츠 탐지: 03_detection/03_abnormal_content.md
+      - 트래픽 학습 탐지: 03_detection/04_traffic_learning.md
+  - 04 Hunting:
+      - 자산 위험도 현황: 04_hunting/01_asset_risk.md
+      - 위협 헌팅 현황: 04_hunting/02_threat_hunting.md
+      - 다중 위협 탐지: 04_hunting/03_multi_threat.md
+      - 시나리오 기반 헌팅: 04_hunting/04_scenario.md
+      - 자산 그룹별 학습 현황: 04_hunting/05_group_learning.md
+  - 05 Forensics:
+      - 메타데이터 분석: 05_forensics/01_metadata.md
+      - 컨텐츠 분석: 05_forensics/02_content.md
+      - 파일 분석: 05_forensics/03_file.md
+      - 패킷 본문 검색: 05_forensics/04_payload_search.md
+      - 보존된 PCAP 리스트: 05_forensics/05_pcap_list.md
+  - 06 Response:
+      - 파일 데이터베이스: 06_response/01_file_db.md
+      - Syslog 전송 설정: 06_response/02_syslog.md
+      - 이메일 알림 연동: 06_response/03_email.md
+      - APT 솔루션 연동 설정: 06_response/04_apt.md
+      - 데이터베이스 연계 기능 설정: 06_response/05_db_link.md
+      - 프로파일 연동 설정: 06_response/06_profile.md
+  - 07 Policy:
+      - 위협 탐지 룰 설정: 07_policy/01_threat_rule.md
+      - 비정상 세션 탐지룰 설정: 07_policy/02_session_rule.md
+      - 비정상 컨텐츠 탐지룰 설정: 07_policy/03_content_rule.md
+      - 다중 위협 탐지 설정: 07_policy/04_multi_threat.md
+      - 시나리오 헌팅룰 설정: 07_policy/05_scenario_rule.md
+      - 컨텐츠 추출룰 설정: 07_policy/06_extraction_rule.md
+      - 컨텐츠 DB 리빌드: 07_policy/07_rebuild.md
+      - Network 그룹 설정: 07_policy/08_network_group.md
+      - URL HOST 그룹 설정: 07_policy/09_url_group.md
+      - File Hash 그룹 설정: 07_policy/10_filehash_group.md
+  - 10 Config:
+      - 라이선스 등록 관리: 10_config/01_license.md
+      - 통합 관리 서버 연동: 10_config/02_server.md
+      - 고급 제어 설정: 10_config/03_advanced.md
+      - 개인 정보 마스킹 설정: 10_config/04_masking.md
+      - 기타 설정: 10_config/05_etc.md
+      - 시스템 접근 관리: 10_config/06_access.md
+      - 계정 그룹 및 권한 설정: 10_config/07_account_group.md
+      - 계정 등록 및 관리: 10_config/08_account.md
+      - LDAP 로그인 설정: 10_config/09_ldap.md
+      - OAuth 서버 설정: 10_config/10_oauth.md
+      - 데이터 설정: 10_config/11_data_setting.md
+      - 데이터베이스 관리: 10_config/12_db_admin.md
+      - 업데이트 서버 설정: 10_config/13_update.md
+      - H/W 상태 확인: 10_config/14_hw_status.md
+      - 패치 관리: 10_config/15_patch.md
+      - 데이터베이스 백업/복원: 10_config/16_db_backup.md
+      - 메타데이터 수집 설정: 10_config/17_metadata_collect.md
+      - 트래픽 수집 설정: 10_config/18_traffic_collect.md
+      - 시스템 감사로그: 10_config/19_audit_log.md
+      - 보고서: 10_config/20_report.md
+      - 버전 정보: 10_config/21_version.md
+      - 기술 지원 연락처: 10_config/22_contact.md
+  - 16 Appendix:
+      - Ndpi 4.2+ Custom 설명: 16_appendix/01_ndpi.md
+      - 파일 종류 리스트 설명: 16_appendix/02_filetype.md
+      - 추출룰 설명: 16_appendix/03_extraction.md
+plugins:
+  - search
+  - i18n:
+      default_language: ko
+      languages:
+        ko: 한국어
+        en: English
+        ja: 日本語
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/quadminers/network-blackbox-docs
